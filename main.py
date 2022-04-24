@@ -12,4 +12,4 @@ async def 打我巴掌(ctx):
 @bot.command()    #傳送某網路圖片
 async def 早安(ctx):
     await ctx.send('https://truth.bahamut.com.tw/s01/202204/0e9a5503e5e827eee40da49963cba2bb.JPG')
-bot.run('OTY3NzcxNjgyNjM2OTcyMDYy.YmVJnQ.L9WNesvbLt0n-u1DCp8KN3V-scA')
+bot.run('OTY3NzcxNjgyNjM2OTcyMDYy.YmVJnQ.J1vT_7KGTIxN1SeMC82KqmCP-Do')
