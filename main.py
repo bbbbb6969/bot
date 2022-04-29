@@ -34,4 +34,4 @@ total=sum(list)
 if money<total:
     print('錢不夠')
 else:
-    print('找你',money-total,'元')
+    print('找你',money-total,'元，多謝惠顧!')
