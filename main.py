@@ -15,9 +15,24 @@ while (True):
         print('我推薦你吃',j,manu[j],'元')
         list.append(manu[j])
         break
-    else:
+    elif i in manu:
         print(manu[i],'元')
-        k=input('是否繼續點餐?')
+        k=input('是否繼續點餐?(y為yes,n為no): ')
+        if k=='y':
+            continue
+        elif k=='n':
+            for c in manu2:
+                list.append(manu[c])
+            print('一共是',sum(list),'元')
+            break
+        else:
+            print('從頭再一次')
+            list.clear()
+            continue
+    else:
+        print('查無此餐點!')
+        manu2.remove(i)
+        k=input('是否繼續點餐?(y為yes,n為no): ')
         if k=='y':
             continue
         elif k=='n':
